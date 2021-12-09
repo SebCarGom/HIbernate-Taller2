@@ -2,7 +2,6 @@ package com.nttdata.persistence;
 
 import java.io.Serializable;
 import java.util.List;
-
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -22,10 +21,15 @@ public class Client extends AbstractEntity implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	private Long clientId;
+
 	private String clientName;
+
 	private String clientFirstSurname;
+
 	private String clientSecondSurname;
+
 	private String nationalIdentityDocument;
+
 	private List<Contract> contractList;
 
 	/**

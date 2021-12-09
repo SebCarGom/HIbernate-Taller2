@@ -1,7 +1,6 @@
 package com.nttdata.services;
 
 import java.util.List;
-
 import com.nttdata.persistence.Contract;
 
 public interface ContractServiceI {

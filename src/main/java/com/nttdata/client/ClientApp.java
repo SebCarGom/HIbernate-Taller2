@@ -2,9 +2,7 @@ package com.nttdata.client;
 
 import java.util.Date;
 import java.util.List;
-
 import org.hibernate.Session;
-
 import com.nttdata.persistence.Client;
 import com.nttdata.persistence.Contract;
 import com.nttdata.services.ClientServiceI;
@@ -85,7 +83,6 @@ public class ClientApp {
 		System.out.println(searchContract);
 
 		final List<Client> clienstList = clientService.findAllClientsFromSystem();
-
 		if (clienstList != null && clienstList.size() > 0) {
 			System.out.println("Total clientes: " + clienstList.size());
 			for (final Client client : clienstList) {

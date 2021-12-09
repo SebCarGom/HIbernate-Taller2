@@ -1,9 +1,7 @@
 package com.nttdata.services;
 
 import java.util.List;
-
 import org.hibernate.Session;
-
 import com.nttdata.persistence.Contract;
 import com.nttdata.persistence.ContractDaoI;
 import com.nttdata.persistence.ContractDaoImpl;

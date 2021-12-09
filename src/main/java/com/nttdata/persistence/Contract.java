@@ -2,7 +2,6 @@ package com.nttdata.persistence;
 
 import java.io.Serializable;
 import java.util.Date;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -21,9 +20,13 @@ public class Contract extends AbstractEntity implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	private Long contractId;
+	
 	private Date contractEffectiveDate;
+	
 	private Date contractExpirationDate;
+	
 	private Double contractMonthlyPay;
+	
 	private Client client;
 
 	/**
